@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftsideHeader ul,
+.rightsideHeader ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftsideHeader ul li,
+.rightsideHeader ul li{
+  list-style: none;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.leftsideHeader ul li{
+  font-size: 1.1rem;
+  padding: 22px;
+}
+
+.leftsideHeader ul li:hover{
+  color: white;
+  background-color: #04aa60;
+  cursor: pointer;
+}
+
+.btn{
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.btn-pro{
+  color: white;
+  background-color: #282a35;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 13px 16px;
+  border-radius: 20px;
+}
+
+.btn-pro:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn-getCertified{
+  color: black;
+  font-size: 1rem;
+  padding: 13px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #ffc0c7;
+}
+
+.btn-getCertified:hover{
+  background-color: #ffacb5;
+  cursor: pointer;
+}
+
+.btn-createWebsite{
+  color: black;
+  font-size: 1rem;
+  padding: 13px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #fff4a3; 
+}
+
+.btn-createWebsite:hover{
+  background-color: #fff395;
+  cursor: pointer;
+}
+
+.btn-logIn{
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 13px 30px;
+  border-radius: 20px;
+  background-color: #04aa60;
+}
+
+.btn-logIn:hover{
+  background-color: #049152;
+  cursor: pointer;
+}
